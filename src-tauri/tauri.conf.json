@@ -4,7 +4,7 @@
     "beforeBuildCommand": "cd app && npm i",
     "beforeDevCommand": "cd app && npm run start",
     "devPath": "http://localhost:8080",
-    "distDir": "../app/public/index.js"
+    "distDir": "../app"
   },
   "package": {
     "productName": "crapptest",

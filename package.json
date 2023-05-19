@@ -1,0 +1,23 @@
+{
+  "name": "crapptest",
+  "version": "1.0.0",
+  "description": "To add custom lessons to this app, make the markdown files with the same frontmatter as the FCC files. The following fields are necessary so that the app can find the expected file: id, title, dashedName. All the markdown files should go into a folder with a hyphon-separated-lowercase-name. This folder should in turn go into the src/contents folder in the **current development copy of the app** . Additionally, in the gatsby-config.js of the development app, add the following to the plugins array:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri":"tauri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martucazpo/crapptest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martucazpo/crapptest/issues"
+  },
+  "homepage": "https://github.com/martucazpo/crapptest#readme",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.3.1"
+  }
+}

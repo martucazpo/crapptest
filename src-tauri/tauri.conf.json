@@ -1,10 +1,10 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeBuildCommand": "npm run build",
-    "beforeDevCommand": "npm run serve",
-    "devPath": "http://localhost:9000",
-    "distDir": "../public"
+    "beforeBuildCommand": "npm run start",
+    "beforeDevCommand": "cd app && npm run start",
+    "devPath": "http://localhost:8080",
+    "distDir": "../app/public/index.js"
   },
   "package": {
     "productName": "crapptest",
